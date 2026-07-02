@@ -18,7 +18,7 @@ export default function Hero() {
     <section className="relative h-screen w-full flex items-center justify-center text-white overflow-hidden bg-white-10">
       {/* Background Slider */}
       <div className="absolute inset-0 z-0">
-        <AnimatePresence mode="wait">
+        <AnimatePresence>
           <motion.div
             key={currentIndex}
             initial={{ opacity: 0, scale: 1.03 }}
@@ -48,8 +48,8 @@ export default function Hero() {
           transition={{ delay: 0.2, duration: 0.8 }}
           className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-tight drop-shadow-2xl"
         >
-          Design-Build Project Development & <br />
-          <span className="text-green-400">Corporate Consulting Group</span>
+          Design build project development <br />
+          <span className="text-green-400">commercial, residential...</span>
         </motion.h1>
 
         <motion.p
@@ -58,7 +58,7 @@ export default function Hero() {
           transition={{ delay: 0.4, duration: 0.8 }}
           className="text-lg sm:text-xl md:text-2xl mt-6 text-gray-200 leading-relaxed max-w-3xl mx-auto drop-shadow-md"
         >
-          Providing institutional business development, asset optimization strategy, and bespoke estate management solutions across commercial and residential sectors.
+          Business development and estate management- services. Group Group companies.
         </motion.p>
 
         {/* Buttons - 'Learn More' Button Explicitly Removed */}

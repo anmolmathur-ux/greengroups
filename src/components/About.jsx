@@ -20,7 +20,7 @@ export default function About() {
       
       {/* Background Slider Implementation */}
       <div className="absolute inset-0 z-0">
-        <AnimatePresence mode="wait">
+        <AnimatePresence>
           <motion.div
             key={currentIndex}
             initial={{ opacity: 0, scale: 1.03 }}
@@ -62,15 +62,19 @@ export default function About() {
             Corporate Legacy
           </span>
           <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight">
-            Our Journey Since 1966
+            Since 1966 over 40 years
           </h2>
 
           <p className="text-gray-700 mt-6 text-lg leading-relaxed">
-            For over 40 years, <span className="font-semibold text-green-700">GreensGroup</span> has built an enduring legacy in foundational business development and corporate scaling solutions. We serve as the core advisory network overseeing multiple Green Groups companies.
+            <span className="font-semibold text-green-700">Group Group companies</span> has built an enduring legacy in Business development and estate management- services.
           </p>
 
           <p className="text-gray-700 mt-4 text-lg leading-relaxed">
-            Our strategic capabilities extend into premium estate management and sophisticated project development across both commercial and residential properties. By coordinating design-build solutions, we maximize capital security and structural asset value for our partners.
+            Our strategic capabilities include design build project development commercial ,residential…
+          </p>
+
+          <p className="text-gray-700 mt-4 text-lg leading-relaxed font-semibold">
+            Clients - City of Palm Desert, California, City of Rancho Mirage Ca. , City of Desert Hot Springs Ca. ,
           </p>
 
           <div className="mt-8 grid grid-cols-2 gap-4 border-t border-gray-200 pt-6">

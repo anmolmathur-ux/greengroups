@@ -8,6 +8,8 @@ import CaseStudies from "./Pages/CaseStudies";
 import Blog from "./Pages/Blog";
 import Contact from "./Pages/Contact";
 import Chatbot from "./components/Chatbot";
+import TermsAndConditions from "./Pages/TermsAndConditions";
+import PrivacyPolicy from "./Pages/PrivacyPolicy";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route path="/casestudies" element={<CaseStudies />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/terms" element={<TermsAndConditions />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
       </Routes>
 
       <Chatbot />
